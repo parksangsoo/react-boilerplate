@@ -1,9 +1,15 @@
-import Image from "next/image";
+"use client";
 
-export default function Home() {
+import Link from "next/link";
+
+export default function App() {
   return (
     <div>
-      Home 페이지
+      디폴트 페이지 <br />
+      
+      <button onClick={() => {
+        <Link href="/home"/>
+      }}>Home으로 이동</button>
     </div>
   );
 }
