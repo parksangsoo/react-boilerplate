@@ -2,7 +2,7 @@
 import Button from "@/src/components/button";
 import React from "react";
 
-export default async function Page() {
+export default async function PeoplePage() {
   
 
   return (
